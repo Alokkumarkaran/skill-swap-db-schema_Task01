@@ -40,6 +40,9 @@ This task is part of the SQL Developer Internship. The goal is to design a datab
 | `Admins`         | Special user type with super access |
 
 ---
+![Screenshot 2025-06-23 145354](https://github.com/user-attachments/assets/39c95c44-e0c0-48d7-8461-eed0e6500446)
+![ER_Diagram_Task01](https://github.com/user-attachments/assets/c6123975-8aeb-49e1-80ea-3a741e2574d5)
+
 
 ## 📑 SQL Script
 
@@ -59,7 +62,6 @@ CREATE TABLE Users (
     role ENUM('learner', 'educator', 'admin') DEFAULT 'learner',
     registered_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-![Screenshot 2025-06-23 145354](https://github.com/user-attachments/assets/ad069142-2e0f-4034-98a2-283ae2a5d870)
 
 
 📊 ER Diagram
