@@ -9,7 +9,7 @@ This task is part of the SQL Developer Internship. The goal is to design a datab
 ## 🛠 Tools Used
 
 - ✅ MySQL Workbench – to create and run SQL queries
-- ✅ draw.io – to draw the ER diagram
+- ✅ MYSQL Workbench – to draw the ER diagram
 - ✅ GitHub – to upload and submit the task
 
 ---
@@ -40,7 +40,6 @@ This task is part of the SQL Developer Internship. The goal is to design a datab
 | `Admins`         | Special user type with super access |
 
 ---
-![image](https://github.com/user-attachments/assets/40dd51b9-fb2c-4e77-9d78-7e3416e52f03)
 
 ## 📑 SQL Script
 
@@ -60,13 +59,16 @@ CREATE TABLE Users (
     role ENUM('learner', 'educator', 'admin') DEFAULT 'learner',
     registered_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+![Screenshot 2025-06-23 145354](https://github.com/user-attachments/assets/ad069142-2e0f-4034-98a2-283ae2a5d870)
+
 
 📊 ER Diagram
 This diagram shows how all tables are connected (relationships).
 ➡️ Primary keys, foreign keys, and table names are clearly marked.
 
 📷 Screenshot of ER Diagram
-![ER_Diagram_Task01](https://github.com/user-attachments/assets/9beb8cd0-8a7d-4a32-b6f0-ad16ba1891cd)
+![ER_Diagram_Task01](https://github.com/user-attachments/assets/2b62ec44-2ce5-41d4-9dd2-858b25c8b589)
+
 
 
 📁 Folder Structure
